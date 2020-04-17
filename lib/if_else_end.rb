@@ -1,6 +1,7 @@
 # Write your solution here
  
-if Time.now.to_i % 2 == 0
+current_time = Time.now.to_i 
+if current_time.even?
   puts "Even!"
 else
   puts "Odd!"
